@@ -5,7 +5,7 @@ const app=express();
 
 
 //establishing connection with mongoDB database
-mongoose.connect("mongodb+srv://arinjain7:ad271168@cluster0.biy3ffy.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.biy3ffy.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
